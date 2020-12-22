@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { auth } from '../../firebase/firebase.utils';
+
 import './form-input.styles.scss';
 
 const FormInput = ({ handleChange, label, ...otherProps }) => (
