@@ -19,3 +19,5 @@ firestore.collection('users')
 // We could also que this item with the following code: 
 firestore.doc('users/oSJ1Nx13iIfxfJVuvgBG/cartItems/QUdFI4E918jDGLP13RqG');
 
+// If we wanted this collection of cart items ....
+firestore.collection('users/oSJ1Nx13iIfxfJVuvgBG/cartItems');
