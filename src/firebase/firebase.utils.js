@@ -12,7 +12,9 @@ const config = {
     messagingSenderId: "486404677261",
     appId: "1:486404677261:web:e2d7b59b02b0b23de54cc4",
     measurementId: "G-DSW7VQCLPT"
-  };
+};
+
+
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
     if(!userAuth) return;
@@ -37,7 +39,8 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
             console.log('error creating user', error.message);
         }
     }
-    return userRef;          
+    
+    return userRef;        
 }; 
 
 firebase.initializeApp(config);

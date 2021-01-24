@@ -3,7 +3,7 @@ import 'firebase/firestore';
 
 const firestore = firebase.firestore();
 
-firestore.collection('users') 
+firestore.collection('users').doc('THNel8EzYbu7ocv2d7fL').collection('cartItems').doc('57DulYF84PKXLAbNzBWC'); 
     //.doc(oSJ1Nx13iIfxfJVuvgBG'); <-- 
         // if we wanted to go into this users and find this document (i.e. that user), 
         // we would use this line of code.
